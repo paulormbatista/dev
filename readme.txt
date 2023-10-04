@@ -1,0 +1,2 @@
+s3fs datalake -o endpoint=us-ashburn-1 -o passwd_file=${HOME}/.passwd-s3fs -o url=https://idcsavobneh9.compat.objectstorage.[region].oraclecloud.com/ -onomultipart -o use_path_request_style
+df -hT /datalake_mount
