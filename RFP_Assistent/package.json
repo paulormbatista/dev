@@ -2,7 +2,7 @@
     "name": "rfpassistent",
     "version": "1.0.0",
     "msteams": {
-      "teamsAppId": null
+        "teamsAppId": null
     },
     "description": "Microsoft Teams Toolkit hello world Bot sample",
     "engines": {
@@ -20,6 +20,7 @@
     },
     "dependencies": {
         "@microsoft/adaptivecards-tools": "^1.0.0",
+        "@microsoft/teams-ai": "^0.1.0-preview.2",
         "botbuilder": "^4.20.0",
         "restify": "^10.0.0"
     },
